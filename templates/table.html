@@ -1,0 +1,21 @@
+<!--La tabella arriva da https://codepen.io/faaezahmd/pen/dJeRex?editors=0100 -->
+<div id="table" class="table">
+    <ul class="responsive-table">
+        <li class="table-header">
+            <div class="col col-1">Execution Date</div>
+            <div class="col col-2">Direction</div>
+            <div class="col col-3">Pair</div>
+            <div class="col col-4">Quantity</div>
+            <div class="col col-5">Price</div>
+        </li>
+        {% for i in range (1,10) %}
+        <li class="table-row">
+            <div class="col col-1" data-label= "Execution Date"> {{date[-i]}}</div>
+            <div class="col col-4" data-label= "Direction"> {{side[-i]}}</div>
+            <div class="col col-3" data-label= "Pair"> {{symbol[-i]}}</div>
+            <div class="col col-2" data-label= "Quantity"> {{ord_qty[-i]}}</div>
+            <div class="col col-5" data-label= "Price"> {{avg_price[-i]}}</div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

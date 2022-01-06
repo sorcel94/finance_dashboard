@@ -1,0 +1,9 @@
+start the virtual environment via the command
+
+source venv/bin/activate
+
+to exit
+
+deactivate
+
+
