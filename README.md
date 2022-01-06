@@ -11,3 +11,9 @@ shortcomings:
 
 -flask might be not the best framework for the application, maybe is better to use PHP(?)
 -at the moment the data are stored in a CSV file, this will be changed in a DB in the future
+
+PER FAR RUNNARE L'APP:
+
+- entrare nel virtual environment
+- nel terminal python3 test_app.py
+
